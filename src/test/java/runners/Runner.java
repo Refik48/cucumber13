@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
             // herhangi bir class'da yazilan her adim diger class'lardaki adimlarla
             // uyusursa yeni adim olusturmaya gerek kalmaz.
 
-            tags="@dip", // work in progress
+            tags="@wip", // work in progress
             // 2-  @ testNG'degi group gibi calisir
             // eger sadece 1 Feature veya 1 Scenario calistiracaksak, gidip feature dosyasindan calistirabiliriz
             // birden fazla Feature veya Scenario calistirmak istedigimizde
@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
             // annotation'larin ne oldugu onemli degildir isterseniz @ali yazalim, istersek @bardak yazalim.
             // Baska yerde bu annotation varsa o annotation calisir.
 
-            dryRun=false
+            dryRun=true
             // true oldugunda test case'leri calistirmayi denemeden sadece eksik olan step'leri bana verir
             // false oldugunda test case'leri calistirmayi dener eksik step' bulursa onu rapor eder
     )
