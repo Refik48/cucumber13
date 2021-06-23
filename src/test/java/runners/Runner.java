@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
     // Package'lari birbirine bagliyor.
     @RunWith(Cucumber.class) //@RunWith ve @CucumberOptions annotation'lari sayesinden bizim
     @CucumberOptions( // cucumberla beraber JUnit kullandigimizi anlayabiliriz.
+            plugin={"html:target\\cucumber-reports.html"}, // rapor olusturulmasini saglar.
             // 1) Bu annotation'in gorevu feature dosyalarim ile stepdefinition dosyalarini birlestirmek.
             features="src/test/resources/features", // "features" package'n path'i
             glue="src/test/java/stepdefinitions", // "stepdefinitions" package'n path'i

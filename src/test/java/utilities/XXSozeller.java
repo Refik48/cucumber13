@@ -37,5 +37,8 @@ public class XXSozeller {
         Birden fazla tag kullanabilir, matematikteki mantiksal operatorlerle (or, and, not)
         bu taglari birlikte veya ayri ayri calistirabiliriz.
         - Feature dosyasinda comment yapmak istedigimiz satiri # ile isaretleriz.
+
+        - Rapor almak istiyorsak cucumber class'indan degil "Runner" class'indan calistirmaliyiz.
+        Rapor almak icin tag'lar olmalidir.
      */
 }
