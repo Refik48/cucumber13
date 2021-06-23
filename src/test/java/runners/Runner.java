@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
             // annotation'larin ne oldugu onemli degildir isterseniz @ali yazalim, istersek @bardak yazalim.
             // Baska yerde bu annotation varsa o annotation calisir.
 
-            dryRun=true
+            dryRun=false
             // true oldugunda test case'leri calistirmayi denemeden sadece eksik olan step'leri bana verir
             // false oldugunda test case'leri calistirmayi dener eksik step' bulursa onu rapor eder
     )
