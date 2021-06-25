@@ -53,7 +53,7 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-failsafe-plugin</artifactId>
+                <artifactId>maven-failsafe-plugin</artifactId> <!-- Testimiz fail olsada calismayi surduruyor -->
                 <version>3.0.0-M1</version>
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
@@ -70,14 +70,14 @@
                 <configuration>
                     <parallel>classes</parallel>
                     <forkMode>perthread</forkMode>
-                    <threadCount>2</threadCount>
+                    <threadCount>2</threadCount> <!-- Ayni anda 2 browser'da calismasi icin -->
                     <reuseForks>false</reuseForks>
                     <argLine>-Duser.language=en</argLine>
                     <argLine>-Xmx1024m</argLine>
                     <argLine>-XX:MaxPermSize=256m</argLine>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
                     <useFile>false</useFile>
-                    <includes>
+                    <includes> <!-- runners icinde adinda TestRunner bulunanlari calistir anlaminda -->
                         <include>**/runners/*TestRunner*.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="44.122">
+    <testcase classname="US1011 Amazon Arama" name="TC15_Kullanici Amazonda Mehmet Aratir" time="42.888">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given kullanici "amazon_url" sayfasina gider................................passed
+Then Today's deal sekmesine tiklar..........................................passed
+And Today's deal sayfasinda "Mehmet" icin arama yapar.......................passed
+Then ilk ilan isminde "Mustafa" gectigini test eder.........................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.AmazonStepDefinitions.ilk_ilan_isminde_gectigini_test_eder(AmazonStepDefinitions.java:70)
+	at ✽.ilk ilan isminde "Mustafa" gectigini test eder(file:///C:/Users/nihat/IdeaProjects/com.cucumber13/src/test/resources/features/US1011_Amazon_Arama.feature:8)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

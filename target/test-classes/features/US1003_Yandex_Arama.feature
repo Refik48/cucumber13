@@ -1,4 +1,4 @@
-@wip
+
 Feature: US1003_Yandex Arama
 
   Background: Kullanici Yandex anasayfaya gider

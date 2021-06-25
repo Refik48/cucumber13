@@ -41,5 +41,17 @@ public class XXSozeller {
         - Rapor almak istiyorsak cucumber class'indan degil "Runner" class'indan calistirmaliyiz.
         Rapor almak icin tag'lar olmalidir.
         - Cucumber'da herhangi bir adim failed olursa program calismayi durdurur.
+
+        - Birden fazla Runner Class'i olusturma ;
+        Cok fazla test yapacagimiz zaman bunlari birden fazla Runner'a paylastirip test surelerini
+        kisaltabiliriz. Birden fazla Runner calistirdigimizda bilgisayar kasabilir hatta cokme noktasina
+        gelebilir. O yuzden 2 ideal simdilik.
+        Plugin'imizi 2. Runner class'inda "html:target\\cucumber-raporlar2.html", 2'yi ekliyorum
+        cunku raporlari ayni yere kaydeder ve karisiklik olur.
+        Tags'larda birbirinden farkli olmak zorundadir.
+        pom.xml dosyamiza <build> altinda suanki pom'da olanlari yapistiriyoruz.
+        Daha sonra intellijin terminaline mvn clean verify yazinca 2 browser ile calismaya basliyor.
+        Daha ayrintili rapor icin : target -> cucumber-html-reports -> js -> overview-features.html
+        Bu ayrintili raporun gelmesi icin sadece terminalden calistirilmasi gerekiyor. Normal run ile gelmez.
      */
 }

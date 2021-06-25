@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
                     "junit:target/xml-report/cucumber.xml"},
             // 1) Bu annotation'in gorevu feature dosyalarim ile stepdefinition dosyalarini birlestirmek.
             features="src/test/resources/features", // "features" package'n path'i
-            glue="src/test/java/stepdefinitions", // "stepdefinitions" package'n path'i
+            glue="stepdefinitions", // "stepdefinitions" package'n path'i
             // features ve glue ile package'lari birbirine baglamis olduk.
             // Yani java olan kodlarla java olmayanlari birlestirmemize yariyor.
             // Bu iki package altinda kac tane class olursa olsun,
@@ -39,6 +39,8 @@ import org.junit.runner.RunWith;
             dryRun=false
             // true oldugunda test case'leri calistirmayi denemeden sadece eksik olan step'leri bana verir
             // false oldugunda test case'leri calistirmayi dener eksik step' bulursa onu rapor eder
+
     )
-    public class Runner {
-}
+    public class TestRunner {
+
+    }
