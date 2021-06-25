@@ -1,0 +1,216 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Kullanici Yandex anasayfaya gider",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Kullanici Yandex anasayfaya gider",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-25T11:38:44.660Z",
+        "line": 7,
+        "name": "TC05_Iphone arama",
+        "description": "",
+        "id": "us1003-yandex-arama;tc05-iphone-arama",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Yandexde iPhone icin arama yapar",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Yandexde sonuclarin iPhone icerdigini test eder",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Kullanici Yandex anasayfaya gider",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Kullanici Yandex anasayfaya gider",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-25T11:38:44.785Z",
+        "line": 11,
+        "name": "TC06_tea pot arama",
+        "description": "",
+        "id": "us1003-yandex-arama;tc06-tea-pot-arama",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Yandexde tea pot icin arama yapar",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Yandexde sonuclarin tea pot icerdigini test eder",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "sayfayi kapatir",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "US1003_Yandex Arama",
+    "description": "",
+    "id": "us1003-yandex-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1003_Yandex_Arama.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-25T11:38:44.807Z",
+        "line": 4,
+        "name": "TC15_Kullanici Amazonda Mehmet Aratir",
+        "description": "",
+        "id": "us1011-amazon-arama;tc15-kullanici-amazonda-mehmet-aratir",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "kullanici \"amazon_url\" sayfasina gider",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Today\u0027s deal sekmesine tiklar",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Today\u0027s deal sayfasinda \"Mehmet\" icin arama yapar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "ilk ilan isminde \"Mustafa\" gectigini test eder",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "sayfayi kapatir",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "US1011 Amazon Arama",
+    "description": "",
+    "id": "us1011-amazon-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1011_Amazon_Arama.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

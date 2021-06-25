@@ -40,5 +40,6 @@ public class XXSozeller {
 
         - Rapor almak istiyorsak cucumber class'indan degil "Runner" class'indan calistirmaliyiz.
         Rapor almak icin tag'lar olmalidir.
+        - Cucumber'da herhangi bir adim failed olursa program calismayi durdurur.
      */
 }

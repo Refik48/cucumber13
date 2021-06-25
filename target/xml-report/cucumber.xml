@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.501">
+    <testcase classname="US1003_Yandex Arama" name="TC05_Iphone arama" time="0.101">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given Kullanici Yandex anasayfaya gider.....................................undefined
+When Yandexde iPhone icin arama yapar.......................................skipped
+Then Yandexde sonuclarin iPhone icerdigini test eder........................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1003_Yandex Arama" name="TC06_tea pot arama" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given Kullanici Yandex anasayfaya gider.....................................undefined
+When Yandexde tea pot icin arama yapar......................................skipped
+Then Yandexde sonuclarin tea pot icerdigini test eder.......................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1011 Amazon Arama" name="TC15_Kullanici Amazonda Mehmet Aratir" time="0.007">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici "amazon_url" sayfasina gider................................undefined
+Then Today's deal sekmesine tiklar..........................................skipped
+And Today's deal sayfasinda "Mehmet" icin arama yapar.......................skipped
+Then ilk ilan isminde "Mustafa" gectigini test eder.........................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>

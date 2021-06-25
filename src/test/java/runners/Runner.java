@@ -6,9 +6,12 @@ import org.junit.runner.RunWith;
 
     // Runner Class'i sadece class'lari birbirine baglamiyor.
     // Package'lari birbirine bagliyor.
+
     @RunWith(Cucumber.class) //@RunWith ve @CucumberOptions annotation'lari sayesinden bizim
-    @CucumberOptions( // cucumberla beraber JUnit kullandigimizi anlayabiliriz.
-            plugin={"html:target\\cucumber-reports.html"}, // rapor olusturulmasini saglar.
+    @CucumberOptions(       // cucumberla beraber JUnit kullandigimizi anlayabiliriz.
+            plugin={"html:target\\cucumber-raporlar.html", // rapor olusturulmasini saglar.
+                    "json:target/json-reports/cucumber.json", // ss'li rapor almamizi sagliyor.
+                    "junit:target/xml-report/cucumber.xml"},
             // 1) Bu annotation'in gorevu feature dosyalarim ile stepdefinition dosyalarini birlestirmek.
             features="src/test/resources/features", // "features" package'n path'i
             glue="src/test/java/stepdefinitions", // "stepdefinitions" package'n path'i

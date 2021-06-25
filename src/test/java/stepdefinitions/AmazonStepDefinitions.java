@@ -55,4 +55,18 @@ public class AmazonStepDefinitions {
     public void kullaniciSayfasinaGider(String sayfaUrl) {
         Driver.getDriver().get(ConfigReader.getProperty(sayfaUrl));
     }
+
+
+    @Then("Today's deal sekmesine tiklar")
+    public void today_s_deal_sekmesine_tiklar() {
+        amazonPage.todaysDealButton.click();
+    }
+    @Then("Today's deal sayfasinda {string} icin arama yapar")
+    public void today_s_deal_sayfasinda_icin_arama_yapar(String aranacakKelime) {
+        amazonPage.searchBox.sendKeys(aranacakKelime + Keys.ENTER);
+    }
+    @Then("ilk ilan isminde {string} gectigini test eder")
+    public void ilk_ilan_isminde_gectigini_test_eder(String arananKelime) {
+        Assert.assertTrue(amazonPage.aramaSonucuIlkUrunIsmiElementi.getText().contains(arananKelime));
+    }
 }

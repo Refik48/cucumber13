@@ -1,5 +1,5 @@
 Feature: US101_Editor Data Table
-  @wip
+
   Scenario: TC14_Data Table Test
 
     When kullanici "editor.datatables.net" sayfasina gider
